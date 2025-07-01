@@ -1,4 +1,4 @@
-# 🚀 Git Commit Commands – Notes & Cheat Sheet
+# 🚀 Git Commands – Notes & Cheat Sheet
 
 A handy reference for all the **Git commit-related commands**. Ideal for beginners and experienced developers working with Git regularly.
 
@@ -54,6 +54,10 @@ Git push
 
 ```bash
 git push [remote] [branch]
+```
+## Git push commands🎀
+
+```bash
 git push                          #Pushes to the remote branch set as upstream.                                   |
 git push origin main              #Push `main` branch to the remote `origin`.                                     |
 git push -u origin main           #Push `main` branch and set it as upstream for future pushes.                   |
@@ -64,3 +68,35 @@ git push origin :branch-name      #Delete the remote branch named `branch-name`.
 git push --force or git push -f   #Force push the current branch (overwrite remote history).                      |
 git push origin HEAD              #Push the current local HEAD (current branch) to the remote with the same name. |
 ```
+# 🔄 Git Pull Cheat Sheet
+
+`git pull` is used to fetch and download content from a remote repository and immediately merge it with your local branch.
+
+It’s effectively the same as:
+```bash
+git fetch
+git merge
+```
+
+but git pull is more effective with greater and more handling
+
+## basic format ⬇️
+```bash
+git pull [remote] [branch]
+```
+
+## ✨ git pull commands ✨
+
+```bash
+Command	                                     Description
+git pull	                  #Pulls from the tracked upstream branch and merges it.
+git pull origin main	          #Pulls from the main branch of the origin remote.
+git pull --rebase	          #Fetches and rebases instead of merging. Keeps history linear.
+git pull origin main --rebase	  #Pulls from main and rebases changes.
+git pull --all	                  #Fetch and merge all branches from all remotes.
+git pull --no-commit	          #Merge but don’t automatically commit the result.
+git pull --ff-only	          #Only fast-forward if possible; otherwise, abort.
+git pull --no-rebase	          #Ensures regular merge (disables rebasing).
+```
+
+till now this is it more will be added later
