@@ -40,3 +40,27 @@ git push origin main               # Push to a specific branch
 git reset --soft HEAD~1            # Undo last commit, keep staged changes
 git reset --mixed HEAD~1           # Undo last commit, keep changes in working directory
 git reset --hard HEAD~1            # Undo last commit, discard changes
+
+```
+
+Git push
+# 📦 Git Push Cheat Sheet
+
+`git push` is used to upload local repository content (commits, branches, tags) to a remote repository like GitHub.
+
+---
+
+## 🚀 Basic Syntax
+
+```bash
+git push [remote] [branch]
+git push                          #Pushes to the remote branch set as upstream.                                   |
+git push origin main              #Push `main` branch to the remote `origin`.                                     |
+git push -u origin main           #Push `main` branch and set it as upstream for future pushes.                   |
+git push origin dev               #Push `dev` branch to `origin`.                                                 |
+git push --all                    #Push all branches to remote.                                                   |
+git push origin --tags            #Push all local tags to the remote.                                             |
+git push origin :branch-name      #Delete the remote branch named `branch-name`.                                  |
+git push --force or git push -f   #Force push the current branch (overwrite remote history).                      |
+git push origin HEAD              #Push the current local HEAD (current branch) to the remote with the same name. |
+```
