@@ -6,11 +6,13 @@ d = 20 // 3
 
 """
 git remote
-git commit
+git commit ✔️
 git branch
 git checkout
-git pull
-git push
+git pull ✔️
+git push ✔️test change
+
 """
 
 print(a, b, c, d)
+# brach main
