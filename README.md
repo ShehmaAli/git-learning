@@ -96,4 +96,4 @@ git pull --ff-only	          #Only fast-forward if possible; otherwise, abort.
 git pull --no-rebase	          #Ensures regular merge (disables rebasing).
 ```
 
-till now this is it more will be added later
+
