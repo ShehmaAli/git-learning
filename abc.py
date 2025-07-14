@@ -1,18 +1,26 @@
-quiz = {
-    "what is the colour of the sky? ": "blue",
-    "how many planets are there in our solar system? ": "8",
-    "Who played the iron man in the avengers endgame? ": "robert downey junior"
-}
+a = 10
+b = 20
+c = a + b
+
+d = 20 // 3
+
 """
-git remote 
+git remote
 git commit ✔️
 git branch ✔️
 git checkout ✔️
 git pull ✔️
 git push ✔️
-test change
-
 """
+
+print(a, b, c, d)
+
+
+quiz = {
+    "What is the colour of the sky? ": blue",
+    "How many planets are there in our solar system? ": "8",
+    "Who played Iron Man in Avengers: Endgame? ": "Robert Downey Jr"
+}
 answers = []
 name = input("What is your name? ")
 decision = input("Do you want answer some questions? (y for yes & n for no) ")
