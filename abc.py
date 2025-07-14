@@ -4,12 +4,13 @@ quiz = {
     "Who played the iron man in the avengers endgame? ": "robert downey junior"
 }
 """
-git remote
+git remote 
 git commit ✔️
-git branch
-git checkout
+git branch ✔️
+git checkout ✔️
 git pull ✔️
-git push ✔️test change
+git push ✔️
+test change
 
 """
 answers = []
