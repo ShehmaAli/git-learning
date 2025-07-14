@@ -6,11 +6,11 @@ d = 20 // 3
 
 """
 git remote
-git commit
-git branch
-git checkout
-git pull
-git push
+git commit ✔️
+git branch ✔️
+git checkout ✔️
+git pull ✔️
+git push ✔️
 """
 
 print(a, b, c, d)
