@@ -18,6 +18,12 @@ git add <filename>        # Stage a specific file
 git add .                 # Stage all files in the current directory (new + modified)
 git add -A                # Stage all changes (including deletions)
 
+git commit -m "Your commit message"      # Commit with a message
+git commit -a -m "Quick commit"          # Automatically stage modified files and commit
+
+git commit --amend                      # Modify last commit (interactive)
+git commit --amend -m "New message"     # Change last commit message directly
+
 git status         # Show status of working directory and staging area
 git diff           # View unstaged changes
 git diff --staged  # View staged changes ready to commit
