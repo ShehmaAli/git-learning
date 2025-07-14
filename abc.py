@@ -17,7 +17,7 @@ print(a, b, c, d)
 
 
 quiz = {
-    "What is the colour of the sky? ": blue",
+    "What is the colour of the sky? ": "blue",
     "How many planets are there in our solar system? ": "8",
     "Who played Iron Man in Avengers: Endgame? ": "Robert Downey Jr"
 }
