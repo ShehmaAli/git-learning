@@ -100,9 +100,6 @@ git pull --no-rebase	          #Ensures regular merge (disables rebasing).
 ```
 
 
-till now this is it more will be added later
-
-
 ## 🌱 What is a Branch?
 
 A **branch** in Git is a lightweight movable pointer to a commit. It's used to isolate features, fixes, or experiments.
@@ -164,4 +161,8 @@ git branch -m old-name new-name    # Rename a specific branch
 git show-branch                   # Show branches and their commits
 git log --oneline --graph --all   # Show commit tree visually
 ```
+
+
+
+till now this is it more will be added later
 
