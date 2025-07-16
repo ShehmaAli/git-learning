@@ -34,9 +34,6 @@ git log --graph                    # Visualize commit tree
 git log -p                         # Show changes introduced by each commit
 git log --stat                     # Show stats (files changed, insertions/deletions)
 
-git push                           # Push to default remote (usually origin)
-git push origin main               # Push to a specific branch
-
 git reset --soft HEAD~1            # Undo last commit, keep staged changes
 git reset --mixed HEAD~1           # Undo last commit, keep changes in working directory
 git reset --hard HEAD~1            # Undo last commit, discard changes
@@ -98,6 +95,8 @@ git pull --no-commit	          #Merge but don’t automatically commit the resul
 git pull --ff-only	          #Only fast-forward if possible; otherwise, abort.
 git pull --no-rebase	          #Ensures regular merge (disables rebasing).
 ```
+
+
 
 
 ## 🌱 What is a Branch?
@@ -165,4 +164,6 @@ git log --oneline --graph --all   # Show commit tree visually
 
 
 till now this is it more will be added later
+
+=======
 
