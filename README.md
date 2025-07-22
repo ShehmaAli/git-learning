@@ -99,4 +99,43 @@ git pull --ff-only	          #Only fast-forward if possible; otherwise, abort.
 git pull --no-rebase	          #Ensures regular merge (disables rebasing).
 ```
 
+## 🔄 What is Merging?
+
+**Merging** means combining changes from one branch into another. Usually, this happens when a feature branch is merged into `main` or `develop`.
+
+---
+
+## 📌 Basic Merge Workflow
+
+1. Make sure you're on the target branch (e.g., `main`)
+2. Merge the source branch (e.g., `feature-x`) into it
+
+```bash
+git checkout main                    # Step 1: Switch to target branch
+git pull                             # Step 2: Get the latest changes
+git merge feature-x                  # Step 3: Merge source branch
+```
+
+# To preview a merge
+```bash
+git merge --no-commit --no-ff <branch>  # Preview a merge (test only)
+```
+
+# After resolving conflicts:
+```bash
+git add <resolved-file>
+git commit                             # Finalize merge commit
+```
+
+# To cancel a merge
+```bash
+git merge --abort
+```
+
+# To delete a merged branch
+```bash
+git branch -d feature-x               # Delete locally (safe)
+git push origin --delete feature-x    # Delete on remote
+```
+
 till now this is it more will be added later
