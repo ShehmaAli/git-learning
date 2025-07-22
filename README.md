@@ -96,9 +96,6 @@ git pull --ff-only	          #Only fast-forward if possible; otherwise, abort.
 git pull --no-rebase	          #Ensures regular merge (disables rebasing).
 ```
 
-
-
-
 ## 🌱 What is a Branch?
 
 A **branch** in Git is a lightweight movable pointer to a commit. It's used to isolate features, fixes, or experiments.
