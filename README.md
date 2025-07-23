@@ -99,6 +99,69 @@ git pull --ff-only	          #Only fast-forward if possible; otherwise, abort.
 git pull --no-rebase	          #Ensures regular merge (disables rebasing).
 ```
 
+<<<<<<< HEAD
+## 🌱 What is a Branch?
+
+A **branch** in Git is a lightweight movable pointer to a commit. It's used to isolate features, fixes, or experiments.
+
+---
+
+## 📄 View Branches
+
+```bash
+git branch                         # List local branches
+git branch -r                      # List remote branches
+git branch -a                      # List all branches (local + remote)
+
+```
+
+## new branches
+
+```bash
+git branch <branch-name>          # Create a new branch (no switch)
+git checkout -b <branch-name>     # Create and switch to new branch
+git switch -c <branch-name>       # Alternative: create and switch
+
+```
+
+## switching between branches
+```bash
+git checkout <branch-name>        # Switch to another branch
+git switch <branch-name>          # Modern alternative to checkout
+```
+
+## deleting branches
+```bash
+git branch -d <branch-name>       # Delete a local branch (safe – checks for merge)
+git branch -D <branch-name>       # Force delete a local branch
+git push origin --delete <name>   # Delete a remote branch
+```
+
+## switching from local to remote or remote to local
+```bash
+git push origin <branch-name>     # Push a local branch to remote
+
+
+git fetch                         # Fetch all remote updates
+git checkout <branch-name>        # Switch to the remote branch (after fetch)
+
+# or
+git checkout -b <local-name> origin/<remote-name>
+
+```
+## Renaming the branch 
+
+``` bash
+git branch -m new-name             # Rename current branch
+git branch -m old-name new-name    # Rename a specific branch
+```
+
+## to see the details of the branch
+```bash
+git show-branch                   # Show branches and their commits
+git log --oneline --graph --all   # Show commit tree visually
+```
+
 ## 🔄 What is Merging?
 
 **Merging** means combining changes from one branch into another. Usually, this happens when a feature branch is merged into `main` or `develop`.
@@ -139,3 +202,4 @@ git push origin --delete feature-x    # Delete on remote
 ```
 
 till now this is it more will be added later
+>>>>>>> merge-pull-request
