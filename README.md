@@ -162,14 +162,6 @@ git show-branch                   # Show branches and their commits
 git log --oneline --graph --all   # Show commit tree visually
 ```
 
-
-
-till now this is it more will be added later
-
-=======
-
-
-=======
 ## 🔄 What is Merging?
 
 **Merging** means combining changes from one branch into another. Usually, this happens when a feature branch is merged into `main` or `develop`.
