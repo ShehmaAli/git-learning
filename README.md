@@ -179,11 +179,6 @@ git pull                             # Step 2: Get the latest changes
 git merge feature-x                  # Step 3: Merge source branch
 ```
 
-# To preview a merge
-```bash
-git merge --no-commit --no-ff <branch>  # Preview a merge (test only)
-```
-
 # After resolving conflicts:
 ```bash
 git add <resolved-file>
