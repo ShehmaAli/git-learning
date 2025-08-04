@@ -197,4 +197,4 @@ git push origin --delete feature-x    # Delete on remote
 ```
 
 till now this is it more will be added later
->>>>>>> merge-pull-request
+
