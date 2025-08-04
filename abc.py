@@ -15,7 +15,7 @@ git push ✔️
 
 print(a, b, c, d)
 
-
+"""
 quiz = {
     "What is the colour of the sky? ": "blue",
     "How many planets are there in our solar system? ": "8",
@@ -34,3 +34,9 @@ if answers == list(quiz.values()):
     print("yes")
 else:
     print("no")
+"""
+
+user_num = int(input("Please enter a number: "))
+
+for star_num in range(user_num + 1):
+    print('*' * star_num)
